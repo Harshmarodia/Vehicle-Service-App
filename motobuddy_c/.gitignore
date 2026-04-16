@@ -1,0 +1,15 @@
+# Flutter
+build/
+.dart_tool/
+.packages
+.pub-cache/
+
+# Node
+node_modules/
+
+# OS
+.idea/
+.vscode/
+
+# Misc
+*.log
