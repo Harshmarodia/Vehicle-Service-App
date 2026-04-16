@@ -54,7 +54,7 @@ Make sure you have the following installed on your machine:
 
 2. **Frontend Applications** (Example: Customer App)
    ```bash
-   cd customer
+   cd motobuddy
    flutter pub get
    flutter run -d chrome
    ```
