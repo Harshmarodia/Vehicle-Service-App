@@ -23,9 +23,9 @@ The project features a sleek, animated UI/UX alongside built-in AI functionaliti
 
 The architecture is split into specific sub-projects for clear separation of concerns:
 
-- 📁 `motobuddy_c/` – **Customer App**: The primary interface for users booking services, requesting breakdown assistance, and tracking their repairs.
-- 📁 `motobuddy_m/` – **Mechanic App**: The portal for mechanics to receive service requests, manage their active jobs, and update repair statuses.
-- 📁 `motobuddy_a/` – **Agent App**: The dashboard for agents managing logistics and facilitating operations locally.
+- 📁 `customer/` – **Customer App**: The primary interface for users booking services, requesting breakdown assistance, and tracking their repairs.
+- 📁 `mechanic/` – **Mechanic App**: The portal for mechanics to receive service requests, manage their active jobs, and update repair statuses.
+- 📁 `agent/` – **Agent App**: The dashboard for agents managing logistics and facilitating operations locally.
 - 📁 `admin/` – **Admin Dashboard**: The master control center providing analytical overviews, user management, and system configuration.
 - 📁 `backend/` – **Node.js Server**: The central REST/GraphQL processing backend managing databases, authentication, real-time events, and AI processing.
 
@@ -54,11 +54,11 @@ Make sure you have the following installed on your machine:
 
 2. **Frontend Applications** (Example: Customer App)
    ```bash
-   cd motobuddy_c
+   cd customer
    flutter pub get
    flutter run -d chrome
    ```
-   *(Repeat for `motobuddy_a`, `motobuddy_m`, or `admin` as needed.)*
+   *(Repeat for `agent`, `mechanic`, or `admin` as needed.)*
 
 ---
 
