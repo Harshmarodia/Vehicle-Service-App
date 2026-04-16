@@ -1,0 +1,77 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is 4076-409A
+C:.
+|   lib_structure.txt
+|   main.dart
+|   
++---core
+|   \---theme
+|       \---constants
+|           \---services
+|               \---utils
++---models
+|       agent_model.dart
+|       payment_model.dart
+|       service_request.dart
+|       user_model.dart
+|       
++---screens
+|   +---auth
+|   |       login_screen.dart
+|   |       register_screen.dart
+|   |       
+|   +---booking
+|   |       chatbot_screen.dart
+|   |       service_booking_screen.dart
+|   |       voice_input_screen.dart
+|   |       
+|   +---history
+|   |       service_history_screen.dart
+|   |       
+|   +---home
+|   |       home_screen.dart
+|   |       
+|   +---payment
+|   |       payment_screen.dart
+|   |       
+|   +---profile
+|   |       profile_screen.dart
+|   |       
+|   +---tracking
+|   |       live_tracking_screen.dart
+|   |       
+|   \---web
+|       +---booking
+|       |       booking_page.dart
+|       |       
+|       +---components
+|       |       footer.dart
+|       |       hero_section.dart
+|       |       product_slider.dart
+|       |       
+|       +---landing
+|       |       landing_page.dart
+|       |       
+|       +---profile
+|       |       profile_page.dart
+|       |       
+|       \---widgets
+|               blur_dropdown.dart
+|               custom_navbar.dart
+|               
++---services
+|       api_service.dart
+|       api_test.dart
+|       
++---web_widgets
+|       blur_dropdown.dart
+|       custom_navbar.dart
+|       footer.dart
+|       hero_section.dart
+|       product_slider.dart
+|       
+\---widgets
+        custom_button.dart
+        loading_widget.dart
+        service_card.dart
+        
