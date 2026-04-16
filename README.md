@@ -23,7 +23,7 @@ The project features a sleek, animated UI/UX alongside built-in AI functionaliti
 
 The architecture is split into specific sub-projects for clear separation of concerns:
 
-- 📁 `customer/` – **Customer App**: The primary interface for users booking services, requesting breakdown assistance, and tracking their repairs.
+- 📁 `motobuddy/` – **Customer App**: The primary interface for users booking services, requesting breakdown assistance, and tracking their repairs.
 - 📁 `mechanic/` – **Mechanic App**: The portal for mechanics to receive service requests, manage their active jobs, and update repair statuses.
 - 📁 `agent/` – **Agent App**: The dashboard for agents managing logistics and facilitating operations locally.
 - 📁 `admin/` – **Admin Dashboard**: The master control center providing analytical overviews, user management, and system configuration.
